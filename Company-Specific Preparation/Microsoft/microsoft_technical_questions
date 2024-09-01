@@ -1,0 +1,25 @@
+# Microsoft Technical Interview Questions
+
+1. **Algorithms**
+   - Write a function to find the shortest path in a graph using Dijkstra's algorithm.
+   - Implement a function to rotate an NxN matrix by 90 degrees.
+   - Describe and implement a depth-first search (DFS) algorithm.
+   - How would you reverse a linked list?
+
+2. **System Design**
+   - Design a chat application with real-time messaging capabilities.
+   - How would you design a scalable logging system?
+   - Explain the architecture for a cloud-based file storage system.
+   - Design a system for real-time data processing and analytics.
+
+3. **Behavioral**
+   - Describe a time when you had to make a tough decision with limited information.
+   - How do you ensure effective communication in a team setting?
+   - Tell me about a project where you faced significant technical challenges.
+   - How do you manage and mitigate risks in a project?
+
+4. **Situational**
+   - How would you approach a scenario where a project is behind schedule and over budget?
+   - What would you do if you were assigned a task outside of your expertise?
+   - Describe how you would handle conflicting feedback from different team members.
+   - How would you deal with a situation where a critical system component fails unexpectedly?

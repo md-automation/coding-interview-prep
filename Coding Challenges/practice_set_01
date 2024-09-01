@@ -1,0 +1,57 @@
+# Coding Practice Set 01
+
+## 1. Longest Increasing Subsequence
+
+**Problem:**
+Given an unsorted array of integers, find the length of the longest increasing subsequence.
+
+---
+
+## 2. Word Ladder II
+
+**Problem:**
+Given two words, `beginWord` and `endWord`, and a dictionary, find all the shortest transformation sequences from `beginWord` to `endWord`, where each transformed word must exist in the dictionary. The transformation sequence must begin with `beginWord` and end with `endWord`.
+
+---
+
+## 3. Merge k Sorted Lists
+
+**Problem:**
+Merge `k` sorted linked lists and return it as one sorted list.
+
+---
+
+## 4. Edit Distance
+
+**Problem:**
+Given two strings, `word1` and `word2`, find the minimum number of operations required to convert `word1` to `word2`. The operations are insertions, deletions, or substitutions.
+
+---
+
+## 5. Largest Rectangle in Histogram
+
+**Problem:**
+Given an array of integers representing the histogram's bar height where the width of each bar is 1, find the area of the largest rectangle that can be formed in the histogram.
+
+---
+
+## 6. N-Queens II
+
+**Problem:**
+The N-Queens II problem is to solve the N-Queens problem but only return the number of distinct solutions.
+
+---
+
+## 7. Regular Expression Matching
+
+**Problem:**
+Implement regular expression matching with support for `.` and `*`. `.` matches any single character, and `*` matches zero or more of the preceding element.
+
+---
+
+## 8. Find Median from Data Stream
+
+**Problem:**
+The median is the middle number in a sorted list of numbers. Implement a data structure that supports the following operations: adding a number to the stream and finding the median.
+
+---

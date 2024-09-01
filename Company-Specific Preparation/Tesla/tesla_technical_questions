@@ -1,0 +1,65 @@
+# Tesla Technical Interview Questions
+
+## 1. Algorithms
+
+1. **Find the Longest Palindromic Substring**
+   - **Question:** Write a function to find the longest palindromic substring in a given string.
+   - **Explanation:** This problem tests your understanding of dynamic programming and string manipulation techniques.
+
+2. **Implement a LRU Cache**
+   - **Question:** Design and implement a Least Recently Used (LRU) cache.
+   - **Explanation:** This problem involves using a combination of hash maps and doubly linked lists to maintain the cache’s efficiency.
+
+3. **Reverse a Binary Tree**
+   - **Question:** Write a function to reverse a binary tree.
+   - **Explanation:** This question evaluates your understanding of tree traversal and recursive problem-solving skills.
+
+4. **Find All Anagrams in a String**
+   - **Question:** Given a string `s` and a non-empty string `p`, find all the start indices of `p`'s anagrams in `s`.
+   - **Explanation:** This problem tests your ability to handle string patterns and efficient searching techniques.
+
+## 2. System Design
+
+1. **Design a Real-Time Traffic Monitoring System**
+   - **Question:** Describe how you would design a system to monitor and analyze real-time traffic data, including the architecture and components involved.
+   - **Explanation:** This question assesses your ability to design scalable and efficient systems with real-time data processing needs.
+
+2. **Design a Scalable Fleet Management System**
+   - **Question:** How would you design a system for managing a large fleet of electric vehicles, including tracking, maintenance, and scheduling?
+   - **Explanation:** This problem tests your skills in designing systems for managing complex operational requirements and data handling.
+
+3. **Design a Battery Management System (BMS)**
+   - **Question:** Explain how you would design a battery management system for electric vehicles, focusing on safety, efficiency, and performance monitoring.
+   - **Explanation:** This question evaluates your knowledge of hardware integration and software algorithms for critical systems in electric vehicles.
+
+4. **Design a Charging Infrastructure for Electric Vehicles**
+   - **Question:** Describe the architecture for a scalable and efficient electric vehicle charging infrastructure, including considerations for user experience and grid impact.
+   - **Explanation:** This problem tests your ability to design infrastructure with a focus on scalability and integration with existing systems.
+
+## 3. Behavior-Based Technical Questions
+
+1. **Describe a Technical Challenge You Overcame**
+   - **Question:** Share a detailed example of a challenging technical problem you faced and how you solved it.
+   - **Explanation:** This question evaluates your problem-solving skills and your ability to handle complex technical issues.
+
+2. **How Do You Approach Debugging Complex Systems?**
+   - **Question:** Explain your methodology for debugging and resolving issues in complex systems.
+   - **Explanation:** This assesses your debugging process and your approach to troubleshooting system issues.
+
+3. **Discuss a Time You Optimized a System or Process**
+   - **Question:** Provide an example of a system or process you optimized and the impact it had.
+   - **Explanation:** This question focuses on your ability to improve system performance and efficiency.
+
+## 4. Situational Technical Questions
+
+1. **How Would You Handle a Critical System Failure?**
+   - **Question:** Describe the steps you would take if you encountered a critical failure in a production system.
+   - **Explanation:** This question assesses your ability to manage high-pressure situations and ensure system reliability.
+
+2. **What Would You Do If You Found a Security Vulnerability?**
+   - **Question:** Explain your approach to handling and mitigating a security vulnerability discovered in a system.
+   - **Explanation:** This evaluates your understanding of security best practices and your response to potential threats.
+
+3. **How Would You Manage a Project with Ambiguous Requirements?**
+   - **Question:** Describe how you would approach a project where the requirements are not clearly defined.
+   - **Explanation:** This assesses your ability to handle uncertainty and develop a clear plan for project execution.

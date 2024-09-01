@@ -1,0 +1,25 @@
+# Google Technical Interview Questions
+
+1. **Algorithms**
+   - Implement a function to find the median of two sorted arrays.
+   - Write a function to merge two sorted linked lists.
+   - Explain and implement the quicksort algorithm.
+   - Describe how you would detect a cycle in a linked list.
+
+2. **System Design**
+   - Design a URL shortening service.
+   - How would you design a scalable search engine?
+   - Explain the architecture of a distributed caching system.
+   - Design a recommendation system for personalized search results.
+
+3. **Behavioral**
+   - Describe a challenging technical problem you faced and how you solved it.
+   - How do you prioritize tasks when managing multiple projects?
+   - Tell me about a time you had to collaborate with a difficult team member.
+   - How do you handle tight deadlines and high-pressure situations?
+
+4. **Situational**
+   - How would you approach a project where you have limited information about the requirements?
+   - What would you do if you encountered a significant bug in production code?
+   - Describe how you would handle a situation where you disagree with a project requirement.
+   - How would you manage conflicting priorities from different stakeholders?

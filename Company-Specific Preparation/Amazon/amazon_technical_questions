@@ -1,0 +1,25 @@
+# Amazon Technical Interview Questions
+
+1. **Algorithms**
+   - Write a function to find the intersection of two arrays.
+   - Implement a function to find the longest substring without repeating characters.
+   - Describe and implement the breadth-first search (BFS) algorithm.
+   - How would you find the nth largest element in an unsorted array?
+
+2. **System Design**
+   - Design a scalable inventory management system.
+   - How would you design a real-time notification system?
+   - Explain the architecture of a recommendation system.
+   - Design a system for handling large-scale file uploads.
+
+3. **Behavioral**
+   - Tell me about a time you successfully led a project or team.
+   - How do you handle disagreements with peers or stakeholders?
+   - Describe a situation where you had to learn a new skill quickly.
+   - How do you approach setting and achieving long-term goals?
+
+4. **Situational**
+   - How would you handle a situation where you are given an incomplete set of requirements?
+   - What steps would you take if you find a critical security vulnerability in a production system?
+   - Describe how you would approach a project with tight deadlines and limited resources.
+   - How would you prioritize tasks when faced with multiple urgent issues?

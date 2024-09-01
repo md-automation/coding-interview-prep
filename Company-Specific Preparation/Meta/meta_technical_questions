@@ -1,0 +1,25 @@
+# Facebook Technical Interview Questions
+
+1. **Algorithms**
+   - Implement a function to detect if a string is an anagram of another string.
+   - Write a function to find the maximum subarray sum (Kadane's Algorithm).
+   - Explain and implement the merge sort algorithm.
+   - How would you find the first non-repeating character in a string?
+
+2. **System Design**
+   - Design a scalable news feed system.
+   - How would you design an ad targeting and serving system?
+   - Explain the architecture for a high-availability chat service.
+   - Design a system for tracking user engagement and analytics.
+
+3. **Behavioral**
+   - Describe a time when you had to adapt to significant changes in your work environment.
+   - How do you approach problem-solving when faced with ambiguous requirements?
+   - Tell me about a time you successfully implemented a new technology or tool.
+   - How do you handle working with cross-functional teams?
+
+4. **Situational**
+   - How would you manage a project with changing requirements and priorities?
+   - What steps would you take to troubleshoot and resolve a performance issue in production?
+   - Describe how you would handle a situation where you have to deliver a project with incomplete documentation.
+   - How would you deal with a team member who is not meeting their responsibilities?

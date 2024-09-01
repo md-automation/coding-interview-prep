@@ -1,0 +1,104 @@
+# Technical Mock Interview Questions and Sample Answers
+
+1. **Data Structures**
+   - **Question:** Explain the differences between a stack and a queue.
+     **Sample Answer:** A stack is a last-in-first-out (LIFO) data structure, where the most recently added element is the first one to be removed. Common operations are `push` and `pop`. A queue, on the other hand, is a first-in-first-out (FIFO) data structure, where the first element added is the first one to be removed. Common operations are `enqueue` and `dequeue`.
+
+   - **Question:** Implement a linked list from scratch.
+     **Sample Answer:** 
+     ```python
+     class Node:
+         def __init__(self, value):
+             self.value = value
+             self.next = None
+
+     class LinkedList:
+         def __init__(self):
+             self.head = None
+
+         def append(self, value):
+             new_node = Node(value)
+             if not self.head:
+                 self.head = new_node
+                 return
+             current = self.head
+             while current.next:
+                 current = current.next
+             current.next = new_node
+
+         def display(self):
+             current = self.head
+             while current:
+                 print(current.value, end=" -> ")
+                 current = current.next
+             print("None")
+     ```
+
+2. **Algorithms**
+   - **Question:** Write a function to sort an array using quicksort.
+     **Sample Answer:**
+     ```python
+     def quicksort(arr):
+         if len(arr) <= 1:
+             return arr
+         pivot = arr[len(arr) // 2]
+         left = [x for x in arr if x < pivot]
+         middle = [x for x in arr if x == pivot]
+         right = [x for x in arr if x > pivot]
+         return quicksort(left) + middle + quicksort(right)
+     ```
+
+   - **Question:** Describe and implement the Dijkstra algorithm for shortest paths.
+     **Sample Answer:**
+     ```python
+     import heapq
+
+     def dijkstra(graph, start):
+         distances = {vertex: float('infinity') for vertex in graph}
+         distances[start] = 0
+         priority_queue = [(0, start)]
+
+         while priority_queue:
+             current_distance, current_vertex = heapq.heappop(priority_queue)
+
+             if current_distance > distances[current_vertex]:
+                 continue
+
+             for neighbor, weight in graph[current_vertex].items():
+                 distance = current_distance + weight
+                 if distance < distances[neighbor]:
+                     distances[neighbor] = distance
+                     heapq.heappush(priority_queue, (distance, neighbor))
+
+         return distances
+     ```
+
+3. **System Design**
+   - **Question:** Design a URL shortening service like bit.ly.
+     **Sample Answer:** The URL shortening service can be designed using a simple key-value store where the key is a unique identifier for the original URL, and the value is the shortened URL. The service should handle creating new shortened URLs, redirecting shortened URLs to their original counterparts, and managing URL mappings. 
+
+   - **Question:** How would you design a scalable notification system?
+     **Sample Answer:** A scalable notification system can be designed using a distributed architecture with message queues. The system would have a producer component that generates notifications and sends them to a queue. Consumers process these notifications and deliver them to the users. To handle scale, use partitioning and replication for the message queues and notification services to ensure high availability and reliability.
+
+4. **Coding Challenges**
+   - **Question:** Given a list of integers, find the two numbers that add up to a specific target.
+     **Sample Answer:**
+     ```python
+     def two_sum(nums, target):
+         num_dict = {}
+         for i, num in enumerate(nums):
+             complement = target - num
+             if complement in num_dict:
+                 return [num_dict[complement], i]
+             num_dict[num] = i
+         return []
+     ```
+
+   - **Question:** Write a function to determine if a string is a palindrome.
+     **Sample Answer:**
+     ```python
+     def is_palindrome(s):
+         s = ''.join(e for e in s if e.isalnum()).lower()
+         return s == s[::-1]
+     ```
+
